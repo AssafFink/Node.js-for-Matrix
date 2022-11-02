@@ -6,7 +6,7 @@ const randomNumbers = require("./random-numbers");
 
 const observable = randomNumbers(20);
 
-// Subscribe and get the pure reported data:
+// // Subscribe and get the pure reported data:
 // const subscription = observable.subscribe(
 //     num => console.log(num),
 //     err => console.log(err.message),

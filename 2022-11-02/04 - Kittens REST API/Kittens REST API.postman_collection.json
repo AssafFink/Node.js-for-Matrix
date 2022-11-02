@@ -1,0 +1,213 @@
+{
+	"info": {
+		"_postman_id": "07482e31-4b11-4bdd-acd4-fbb5668bfda9",
+		"name": "Kittens REST API",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "881012"
+	},
+	"item": [
+		{
+			"name": "GET all kittens",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:4000/api/kittens",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "4000",
+					"path": [
+						"api",
+						"kittens"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GET one kitten",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:4000/api/kittens/1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "4000",
+					"path": [
+						"api",
+						"kittens",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Add new kitten",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"name\": \"Oscar\",\r\n    \"age\": 2\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:4000/api/kittens",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "4000",
+					"path": [
+						"api",
+						"kittens"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Update full kitten",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"name\": \"Mitsi the king\",\r\n    \"age\": 4.5\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:4000/api/kittens/1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "4000",
+					"path": [
+						"api",
+						"kittens",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Update partial kitten",
+			"request": {
+				"method": "PATCH",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"age\": 5.5\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:4000/api/kittens/1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "4000",
+					"path": [
+						"api",
+						"kittens",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Delete existing kitten",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:4000/api/kittens/1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "4000",
+					"path": [
+						"api",
+						"kittens",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get kittens by age range",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:4000/api/kittens/5/6",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "4000",
+					"path": [
+						"api",
+						"kittens",
+						"5",
+						"6"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get kittens by age range by Query String",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:4000/api/kittens-by-age-range?minAge=5&maxAge=6",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "4000",
+					"path": [
+						"api",
+						"kittens-by-age-range"
+					],
+					"query": [
+						{
+							"key": "minAge",
+							"value": "5"
+						},
+						{
+							"key": "maxAge",
+							"value": "6"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

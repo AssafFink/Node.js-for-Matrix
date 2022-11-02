@@ -1,5 +1,5 @@
 
-// Before ES6:
+// // Before ES6:
 // function main() {
 //     console.log("Start");
 //     getFirstRandomEvenNumberAfterDelay(
@@ -37,26 +37,26 @@
 // main();
 
 
-// // After ES6 (but with callback-hell):
-// function main() {
+// After ES6 (but with callback-hell):
+function main() {
 
-//     getFirstRandomEvenNumberAfterDelay(1000)
-//         .then(n1 => {
-//             console.log("Result 1: " + n1);
-//             getFirstRandomEvenNumberAfterDelay(n1)
-//                 .then(n2 => {
-//                     console.log("Result 2: " + n2);
-//                     getFirstRandomEvenNumberAfterDelay(n2)
-//                         .then(n3 => {
-//                             console.log("Result 3: " + n3);
-//                         })
-//                         .catch(err => console.log("Error: " + err.message));
-//                 })
-//                 .catch(err => console.log("Error: " + err.message));
-//         })
-//         .catch(err => console.log("Error: " + err.message));
-// }
-// main();
+    getFirstRandomEvenNumberAfterDelay(1000)
+        .then(n1 => {
+            console.log("Result 1: " + n1);
+            getFirstRandomEvenNumberAfterDelay(n1)
+                .then(n2 => {
+                    console.log("Result 2: " + n2);
+                    getFirstRandomEvenNumberAfterDelay(n2)
+                        .then(n3 => {
+                            console.log("Result 3: " + n3);
+                        })
+                        .catch(err => console.log("Error: " + err.message));
+                })
+                .catch(err => console.log("Error: " + err.message));
+        })
+        .catch(err => console.log("Error: " + err.message));
+}
+main();
 
 // After ES6 (but with callback-hell):
 async function main() {
@@ -71,7 +71,7 @@ async function main() {
         console.log("Result 3: " + n3);
     }
     catch (err) {
-        console.log("Error: " + err.message)
+        console.log("Error: " + err.message);
     }
 }
 main();
