@@ -13,7 +13,7 @@ numOfCats = 4;
 console.log("Num of cats: " + numOfCats);
 
 
-let firstName; // Don't do it
+let firstName; // Don't do it = any
 firstName = "Moishe";
 firstName = 123;
 console.log("First name: " + firstName);

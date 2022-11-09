@@ -1,0 +1,27 @@
+[
+    {
+        "id": 1,
+        "name": "The amazing Node.js",
+        "price": 149.99
+    },
+    {
+        "id": 3,
+        "name": "C# is cool",
+        "price": 80
+    },
+    {
+        "id": 4,
+        "name": "C++ for dummies",
+        "price": 120
+    },
+    {
+        "id": 6,
+        "name": "C# for dummies",
+        "price": 120
+    },
+    {
+        "id": 7,
+        "name": "C# for dummies",
+        "price": 120
+    }
+]

@@ -1,0 +1,47 @@
+Wed, 09 Nov 2022 18:06:03 GMT
+Some error in catch all
+Stack: RangeError: toPrecision() argument must be between 1 and 100
+    at Number.toPrecision (<anonymous>)
+    at C:\Node for Matrix\2022-11-09\Layered REST API\src\6-controllers\books-controller.ts:23:33
+    at step (C:\Node for Matrix\2022-11-09\Layered REST API\src\6-controllers\books-controller.ts:33:23)
+    at Object.next (C:\Node for Matrix\2022-11-09\Layered REST API\src\6-controllers\books-controller.ts:14:53)
+    at C:\Node for Matrix\2022-11-09\Layered REST API\src\6-controllers\books-controller.ts:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (C:\Node for Matrix\2022-11-09\Layered REST API\src\6-controllers\books-controller.ts:4:12)
+    at C:\Node for Matrix\2022-11-09\Layered REST API\src\6-controllers\books-controller.ts:19:89
+    at Layer.handle [as handle_request] (C:\Node for Matrix\2022-11-09\Layered REST API\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Node for Matrix\2022-11-09\Layered REST API\node_modules\express\lib\router\route.js:144:13)
+----------------------------------------------------------------------------------------------------
+Wed, 09 Nov 2022 18:18:05 GMT
+Some error in catch all
+----------------------------------------------------------------------------------------------------
+Wed, 09 Nov 2022 18:18:26 GMT
+Some error in catch all
+----------------------------------------------------------------------------------------------------
+Wed, 09 Nov 2022 18:19:33 GMT
+Some error in catch all
+----------------------------------------------------------------------------------------------------
+Wed, 09 Nov 2022 18:19:59 GMT
+Some error in catch all
+----------------------------------------------------------------------------------------------------
+Wed, 09 Nov 2022 18:23:56 GMT
+Some error in catch all
+----------------------------------------------------------------------------------------------------
+Wed, 09 Nov 2022 18:24:16 GMT
+Some error in catch all
+----------------------------------------------------------------------------------------------------
+Wed, 09 Nov 2022 18:24:45 GMT
+Some error in catch all
+----------------------------------------------------------------------------------------------------
+Wed, 09 Nov 2022 18:27:35 GMT
+Some error in catch all
+----------------------------------------------------------------------------------------------------
+Wed, 09 Nov 2022 18:27:55 GMT
+Some error in catch all
+----------------------------------------------------------------------------------------------------
+Wed, 09 Nov 2022 18:41:57 GMT
+Some error in catch all
+----------------------------------------------------------------------------------------------------
+Wed, 09 Nov 2022 18:42:15 GMT
+Some error in catch all
+----------------------------------------------------------------------------------------------------
