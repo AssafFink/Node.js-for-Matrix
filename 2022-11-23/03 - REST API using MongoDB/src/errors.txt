@@ -1,0 +1,106 @@
+Wed, 16 Nov 2022 17:38:47 GMT
+Some error in catch all
+----------------------------------------------------------------------------------------------------
+Wed, 16 Nov 2022 17:38:58 GMT
+Some error in catch all
+----------------------------------------------------------------------------------------------------
+Wed, 16 Nov 2022 18:10:46 GMT
+Some error in catch all
+Stack: TypeError: Cannot read properties of undefined (reading 'v4')
+    at Object.<anonymous> (C:\Node for Matrix\2022-11-16\REST API using MySQL\src\5-services\products-service.ts:58:34)
+    at step (C:\Node for Matrix\2022-11-16\REST API using MySQL\src\5-services\products-service.ts:33:23)
+    at Object.next (C:\Node for Matrix\2022-11-16\REST API using MySQL\src\5-services\products-service.ts:14:53)
+    at C:\Node for Matrix\2022-11-16\REST API using MySQL\src\5-services\products-service.ts:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (C:\Node for Matrix\2022-11-16\REST API using MySQL\src\5-services\products-service.ts:4:12)
+    at Object.addProduct (C:\Node for Matrix\2022-11-16\REST API using MySQL\src\5-services\products-service.ts:82:12)
+    at C:\Node for Matrix\2022-11-16\REST API using MySQL\src\6-controllers\products-controller.ts:32:52
+    at step (C:\Node for Matrix\2022-11-16\REST API using MySQL\src\6-controllers\products-controller.ts:33:23)
+    at Object.next (C:\Node for Matrix\2022-11-16\REST API using MySQL\src\6-controllers\products-controller.ts:14:53)
+----------------------------------------------------------------------------------------------------
+Wed, 16 Nov 2022 18:22:06 GMT
+Some error in catch all
+Stack: TypeError: path must be absolute or specify root to res.sendFile
+    at ServerResponse.sendFile (C:\Node for Matrix\2022-11-16\REST API using MySQL\node_modules\express\lib\response.js:441:11)
+    at C:\Node for Matrix\2022-11-16\REST API using MySQL\src\6-controllers\products-controller.ts:68:18
+    at step (C:\Node for Matrix\2022-11-16\REST API using MySQL\src\6-controllers\products-controller.ts:33:23)
+    at Object.next (C:\Node for Matrix\2022-11-16\REST API using MySQL\src\6-controllers\products-controller.ts:14:53)
+    at C:\Node for Matrix\2022-11-16\REST API using MySQL\src\6-controllers\products-controller.ts:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (C:\Node for Matrix\2022-11-16\REST API using MySQL\src\6-controllers\products-controller.ts:4:12)
+    at C:\Node for Matrix\2022-11-16\REST API using MySQL\src\6-controllers\products-controller.ts:64:106
+    at Layer.handle [as handle_request] (C:\Node for Matrix\2022-11-16\REST API using MySQL\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Node for Matrix\2022-11-16\REST API using MySQL\node_modules\express\lib\router\route.js:144:13)
+----------------------------------------------------------------------------------------------------
+Wed, 16 Nov 2022 18:25:12 GMT
+Some error in catch all
+Stack: TypeError: path must be absolute or specify root to res.sendFile
+    at ServerResponse.sendFile (C:\Node for Matrix\2022-11-16\REST API using MySQL\node_modules\express\lib\response.js:441:11)
+    at C:\Node for Matrix\2022-11-16\REST API using MySQL\src\6-controllers\products-controller.ts:71:18
+    at step (C:\Node for Matrix\2022-11-16\REST API using MySQL\src\6-controllers\products-controller.ts:33:23)
+    at Object.next (C:\Node for Matrix\2022-11-16\REST API using MySQL\src\6-controllers\products-controller.ts:14:53)
+    at C:\Node for Matrix\2022-11-16\REST API using MySQL\src\6-controllers\products-controller.ts:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (C:\Node for Matrix\2022-11-16\REST API using MySQL\src\6-controllers\products-controller.ts:4:12)
+    at C:\Node for Matrix\2022-11-16\REST API using MySQL\src\6-controllers\products-controller.ts:65:106
+    at Layer.handle [as handle_request] (C:\Node for Matrix\2022-11-16\REST API using MySQL\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Node for Matrix\2022-11-16\REST API using MySQL\node_modules\express\lib\router\route.js:144:13)
+----------------------------------------------------------------------------------------------------
+Wed, 16 Nov 2022 18:26:22 GMT
+Some error in catch all
+Stack: ForbiddenError: Forbidden
+    at createHttpError (C:\Node for Matrix\2022-11-16\REST API using MySQL\node_modules\send\index.js:979:12)
+    at SendStream.error (C:\Node for Matrix\2022-11-16\REST API using MySQL\node_modules\send\index.js:270:31)
+    at SendStream.pipe (C:\Node for Matrix\2022-11-16\REST API using MySQL\node_modules\send\index.js:549:12)
+    at sendfile (C:\Node for Matrix\2022-11-16\REST API using MySQL\node_modules\express\lib\response.js:1130:8)
+    at ServerResponse.sendFile (C:\Node for Matrix\2022-11-16\REST API using MySQL\node_modules\express\lib\response.js:449:3)
+    at C:\Node for Matrix\2022-11-16\REST API using MySQL\src\6-controllers\products-controller.ts:71:18
+    at step (C:\Node for Matrix\2022-11-16\REST API using MySQL\src\6-controllers\products-controller.ts:33:23)
+    at Object.next (C:\Node for Matrix\2022-11-16\REST API using MySQL\src\6-controllers\products-controller.ts:14:53)
+    at C:\Node for Matrix\2022-11-16\REST API using MySQL\src\6-controllers\products-controller.ts:8:71
+    at new Promise (<anonymous>)
+----------------------------------------------------------------------------------------------------
+Wed, 16 Nov 2022 18:27:55 GMT
+Some error in catch all
+Stack: Error: ENOENT: no such file or directory, stat 'C:\Node for Matrix\2022-11-16\REST API using MySQL\src\6-controllersC:\Node for Matrix\2022-11-16\REST API using MySQL\src\1-assets\images\759c24ca-f898-426a-a43b-d006102bc78a.jpg'
+----------------------------------------------------------------------------------------------------
+Wed, 16 Nov 2022 18:28:34 GMT
+Some error in catch all
+----------------------------------------------------------------------------------------------------
+Wed, 23 Nov 2022 17:26:57 GMT
+Some error in catch all
+Stack: MongoServerError: E11000 duplicate key error collection: Northwind.products index: name_1 dup key: { name: "Apple" }
+    at C:\Node for Matrix\2022-11-23\REST API using MongoDB\node_modules\mongodb\src\operations\insert.ts:85:25
+    at C:\Node for Matrix\2022-11-23\REST API using MongoDB\node_modules\mongodb\src\cmap\connection_pool.ts:533:13
+    at C:\Node for Matrix\2022-11-23\REST API using MongoDB\node_modules\mongodb\src\sdam\server.ts:369:13
+    at handleOperationResult (C:\Node for Matrix\2022-11-23\REST API using MongoDB\node_modules\mongodb\src\sdam\server.ts:502:14)
+    at Connection.onMessage (C:\Node for Matrix\2022-11-23\REST API using MongoDB\node_modules\mongodb\src\cmap\connection.ts:450:5)
+    at MessageStream.<anonymous> (C:\Node for Matrix\2022-11-23\REST API using MongoDB\node_modules\mongodb\src\cmap\connection.ts:256:56)
+    at MessageStream.emit (node:events:537:28)
+    at MessageStream.emit (node:domain:482:12)
+    at processIncomingData (C:\Node for Matrix\2022-11-23\REST API using MongoDB\node_modules\mongodb\src\cmap\message_stream.ts:193:14)
+    at MessageStream._write (C:\Node for Matrix\2022-11-23\REST API using MongoDB\node_modules\mongodb\src\cmap\message_stream.ts:70:5)
+----------------------------------------------------------------------------------------------------
+Wed, 23 Nov 2022 17:37:57 GMT
+Some error in catch all
+----------------------------------------------------------------------------------------------------
+Wed, 23 Nov 2022 17:40:24 GMT
+Some error in catch all
+----------------------------------------------------------------------------------------------------
+Wed, 23 Nov 2022 18:21:16 GMT
+Some error in catch all
+Stack: CastError: Cast to number failed for value "[ 10, 20 ]" (type Array) at path "price" for model "ProductModel"
+    at model.Query.exec (C:\Node for Matrix\2022-11-23\REST API using MongoDB\node_modules\mongoose\lib\query.js:4897:21)
+    at Object.<anonymous> (C:\Node for Matrix\2022-11-23\REST API using MongoDB\src\5-services\products-service.ts:80:7)
+    at step (C:\Node for Matrix\2022-11-23\REST API using MongoDB\src\5-services\products-service.ts:33:23)
+    at Object.next (C:\Node for Matrix\2022-11-23\REST API using MongoDB\src\5-services\products-service.ts:14:53)
+    at C:\Node for Matrix\2022-11-23\REST API using MongoDB\src\5-services\products-service.ts:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (C:\Node for Matrix\2022-11-23\REST API using MongoDB\src\5-services\products-service.ts:4:12)
+    at Object.getProductsByPrice (C:\Node for Matrix\2022-11-23\REST API using MongoDB\src\5-services\products-service.ts:136:12)
+    at C:\Node for Matrix\2022-11-23\REST API using MongoDB\src\6-controllers\products-controller.ts:78:48
+    at step (C:\Node for Matrix\2022-11-23\REST API using MongoDB\src\6-controllers\products-controller.ts:33:23)
+----------------------------------------------------------------------------------------------------
+Wed, 23 Nov 2022 18:41:14 GMT
+Some error in catch all
+----------------------------------------------------------------------------------------------------
