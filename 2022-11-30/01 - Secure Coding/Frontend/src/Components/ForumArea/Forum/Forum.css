@@ -1,0 +1,42 @@
+.Forum table {
+    margin: 20px auto;
+}
+
+.Forum table, .Forum th, .Forum td {
+    padding: 5px;
+    border: 1px solid;
+    border-collapse: collapse;
+}
+
+.Forum td:first-of-type {
+    text-align: left;
+}
+
+.Forum tr:nth-child(even) {
+    background-color: lightskyblue;
+}
+
+.Forum tr:nth-child(odd) {
+    background-color: lightgreen;
+}
+
+.Forum thead > tr:first-child {
+    background-color: lightgray;
+}
+
+.Forum form {
+    margin: 0 auto 20px auto;
+    padding: 10px;
+    border: 1px solid;
+    border-radius: 10px;
+    display: inline-block;
+    background-image: linear-gradient(90deg, lightgreen, lightskyblue);
+}
+
+.Forum input {
+    margin-right: 20px;
+}
+
+.Forum input:last-of-type {
+    width: 600px;
+}

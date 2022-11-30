@@ -1,0 +1,25 @@
+.ProductList > table {
+    margin: 20px auto;
+}
+
+.ProductList table, .ProductList th, .ProductList td {
+    padding: 5px;
+    border: 1px solid;
+    border-collapse: collapse;
+}
+
+.ProductList td:first-of-type {
+    text-align: left;
+}
+
+.ProductList tr:nth-child(even) {
+    background-color: lightskyblue;
+}
+
+.ProductList tr:nth-child(odd) {
+    background-color: lightgreen;
+}
+
+.ProductList thead > tr:first-child {
+    background-color: lightgray;
+}
