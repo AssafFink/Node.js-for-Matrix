@@ -1,0 +1,212 @@
+Wed, 30 Nov 2022 16:06:43 GMT
+catchAll Error
+Stack: Error: connect ECONNREFUSED ::1:3306
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1237:16)
+    --------------------
+    at Protocol._enqueue (C:\Node for Matrix\2022-11-30\Secure Coding\Backend\node_modules\mysql\lib\protocol\Protocol.js:144:48)
+    at Protocol.handshake (C:\Node for Matrix\2022-11-30\Secure Coding\Backend\node_modules\mysql\lib\protocol\Protocol.js:51:23)
+    at PoolConnection.connect (C:\Node for Matrix\2022-11-30\Secure Coding\Backend\node_modules\mysql\lib\Connection.js:116:18)
+    at Pool.getConnection (C:\Node for Matrix\2022-11-30\Secure Coding\Backend\node_modules\mysql\lib\Pool.js:48:16)
+    at Pool.query (C:\Node for Matrix\2022-11-30\Secure Coding\Backend\node_modules\mysql\lib\Pool.js:202:8)
+    at C:\Node for Matrix\2022-11-30\Secure Coding\Backend\src\2-utils\dal.ts:13:20
+    at new Promise (<anonymous>)
+    at Object.execute (C:\Node for Matrix\2022-11-30\Secure Coding\Backend\src\2-utils\dal.ts:12:12)
+    at Object.<anonymous> (C:\Node for Matrix\2022-11-30\Secure Coding\Backend\src\5-services\forum-service.ts:22:38)
+    at step (C:\Node for Matrix\2022-11-30\Secure Coding\Backend\src\5-services\forum-service.ts:33:23)
+----------------------------------------------------------------------------------------------------
+Wed, 30 Nov 2022 16:09:45 GMT
+catchAll Error
+Stack: Error: connect ECONNREFUSED ::1:3306
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1237:16)
+    --------------------
+    at Protocol._enqueue (C:\Node for Matrix\2022-11-30\Secure Coding\Backend\node_modules\mysql\lib\protocol\Protocol.js:144:48)
+    at Protocol.handshake (C:\Node for Matrix\2022-11-30\Secure Coding\Backend\node_modules\mysql\lib\protocol\Protocol.js:51:23)
+    at PoolConnection.connect (C:\Node for Matrix\2022-11-30\Secure Coding\Backend\node_modules\mysql\lib\Connection.js:116:18)
+    at Pool.getConnection (C:\Node for Matrix\2022-11-30\Secure Coding\Backend\node_modules\mysql\lib\Pool.js:48:16)
+    at Pool.query (C:\Node for Matrix\2022-11-30\Secure Coding\Backend\node_modules\mysql\lib\Pool.js:202:8)
+    at C:\Node for Matrix\2022-11-30\Secure Coding\Backend\src\2-utils\dal.ts:13:20
+    at new Promise (<anonymous>)
+    at Object.execute (C:\Node for Matrix\2022-11-30\Secure Coding\Backend\src\2-utils\dal.ts:12:12)
+    at Object.<anonymous> (C:\Node for Matrix\2022-11-30\Secure Coding\Backend\src\5-services\forum-service.ts:22:38)
+    at step (C:\Node for Matrix\2022-11-30\Secure Coding\Backend\src\5-services\forum-service.ts:33:23)
+----------------------------------------------------------------------------------------------------
+Wed, 30 Nov 2022 16:10:01 GMT
+catchAll Error
+Stack: Error: connect ECONNREFUSED ::1:3306
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1237:16)
+    --------------------
+    at Protocol._enqueue (C:\Node for Matrix\2022-11-30\Secure Coding\Backend\node_modules\mysql\lib\protocol\Protocol.js:144:48)
+    at Protocol.handshake (C:\Node for Matrix\2022-11-30\Secure Coding\Backend\node_modules\mysql\lib\protocol\Protocol.js:51:23)
+    at PoolConnection.connect (C:\Node for Matrix\2022-11-30\Secure Coding\Backend\node_modules\mysql\lib\Connection.js:116:18)
+    at Pool.getConnection (C:\Node for Matrix\2022-11-30\Secure Coding\Backend\node_modules\mysql\lib\Pool.js:48:16)
+    at Pool.query (C:\Node for Matrix\2022-11-30\Secure Coding\Backend\node_modules\mysql\lib\Pool.js:202:8)
+    at C:\Node for Matrix\2022-11-30\Secure Coding\Backend\src\2-utils\dal.ts:13:20
+    at new Promise (<anonymous>)
+    at Object.execute (C:\Node for Matrix\2022-11-30\Secure Coding\Backend\src\2-utils\dal.ts:12:12)
+    at Object.<anonymous> (C:\Node for Matrix\2022-11-30\Secure Coding\Backend\src\5-services\forum-service.ts:22:38)
+    at step (C:\Node for Matrix\2022-11-30\Secure Coding\Backend\src\5-services\forum-service.ts:33:23)
+----------------------------------------------------------------------------------------------------
+Wed, 30 Nov 2022 16:13:40 GMT
+catchAll Error
+Stack: Error: connect ECONNREFUSED ::1:3306
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1237:16)
+    --------------------
+    at Protocol._enqueue (C:\Node for Matrix\2022-11-30\Secure Coding\Backend\node_modules\mysql\lib\protocol\Protocol.js:144:48)
+    at Protocol.handshake (C:\Node for Matrix\2022-11-30\Secure Coding\Backend\node_modules\mysql\lib\protocol\Protocol.js:51:23)
+    at PoolConnection.connect (C:\Node for Matrix\2022-11-30\Secure Coding\Backend\node_modules\mysql\lib\Connection.js:116:18)
+    at Pool.getConnection (C:\Node for Matrix\2022-11-30\Secure Coding\Backend\node_modules\mysql\lib\Pool.js:48:16)
+    at Pool.query (C:\Node for Matrix\2022-11-30\Secure Coding\Backend\node_modules\mysql\lib\Pool.js:202:8)
+    at C:\Node for Matrix\2022-11-30\Secure Coding\Backend\src\2-utils\dal.ts:13:20
+    at new Promise (<anonymous>)
+    at Object.execute (C:\Node for Matrix\2022-11-30\Secure Coding\Backend\src\2-utils\dal.ts:12:12)
+    at Object.<anonymous> (C:\Node for Matrix\2022-11-30\Secure Coding\Backend\src\5-services\forum-service.ts:10:32)
+    at step (C:\Node for Matrix\2022-11-30\Secure Coding\Backend\src\5-services\forum-service.ts:33:23)
+----------------------------------------------------------------------------------------------------
+Wed, 30 Nov 2022 16:13:48 GMT
+catchAll Error
+Stack: Error: connect ECONNREFUSED ::1:3306
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1237:16)
+    --------------------
+    at Protocol._enqueue (C:\Node for Matrix\2022-11-30\Secure Coding\Backend\node_modules\mysql\lib\protocol\Protocol.js:144:48)
+    at Protocol.handshake (C:\Node for Matrix\2022-11-30\Secure Coding\Backend\node_modules\mysql\lib\protocol\Protocol.js:51:23)
+    at PoolConnection.connect (C:\Node for Matrix\2022-11-30\Secure Coding\Backend\node_modules\mysql\lib\Connection.js:116:18)
+    at Pool.getConnection (C:\Node for Matrix\2022-11-30\Secure Coding\Backend\node_modules\mysql\lib\Pool.js:48:16)
+    at Pool.query (C:\Node for Matrix\2022-11-30\Secure Coding\Backend\node_modules\mysql\lib\Pool.js:202:8)
+    at C:\Node for Matrix\2022-11-30\Secure Coding\Backend\src\2-utils\dal.ts:13:20
+    at new Promise (<anonymous>)
+    at Object.execute (C:\Node for Matrix\2022-11-30\Secure Coding\Backend\src\2-utils\dal.ts:12:12)
+    at Object.<anonymous> (C:\Node for Matrix\2022-11-30\Secure Coding\Backend\src\5-services\forum-service.ts:10:32)
+    at step (C:\Node for Matrix\2022-11-30\Secure Coding\Backend\src\5-services\forum-service.ts:33:23)
+----------------------------------------------------------------------------------------------------
+Wed, 30 Nov 2022 16:14:05 GMT
+catchAll Error
+Stack: Error: connect ECONNREFUSED ::1:3306
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1237:16)
+    --------------------
+    at Protocol._enqueue (C:\Node for Matrix\2022-11-30\Secure Coding\Backend\node_modules\mysql\lib\protocol\Protocol.js:144:48)
+    at Protocol.handshake (C:\Node for Matrix\2022-11-30\Secure Coding\Backend\node_modules\mysql\lib\protocol\Protocol.js:51:23)
+    at PoolConnection.connect (C:\Node for Matrix\2022-11-30\Secure Coding\Backend\node_modules\mysql\lib\Connection.js:116:18)
+    at Pool.getConnection (C:\Node for Matrix\2022-11-30\Secure Coding\Backend\node_modules\mysql\lib\Pool.js:48:16)
+    at Pool.query (C:\Node for Matrix\2022-11-30\Secure Coding\Backend\node_modules\mysql\lib\Pool.js:202:8)
+    at C:\Node for Matrix\2022-11-30\Secure Coding\Backend\src\2-utils\dal.ts:13:20
+    at new Promise (<anonymous>)
+    at Object.execute (C:\Node for Matrix\2022-11-30\Secure Coding\Backend\src\2-utils\dal.ts:12:12)
+    at Object.<anonymous> (C:\Node for Matrix\2022-11-30\Secure Coding\Backend\src\5-services\forum-service.ts:10:32)
+    at step (C:\Node for Matrix\2022-11-30\Secure Coding\Backend\src\5-services\forum-service.ts:33:23)
+----------------------------------------------------------------------------------------------------
+Wed, 30 Nov 2022 16:20:43 GMT
+catchAll Error
+Stack: Error: connect ECONNREFUSED ::1:3306
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1237:16)
+    --------------------
+    at Protocol._enqueue (C:\Node for Matrix\2022-11-30\Secure Coding\Backend\node_modules\mysql\lib\protocol\Protocol.js:144:48)
+    at Protocol.handshake (C:\Node for Matrix\2022-11-30\Secure Coding\Backend\node_modules\mysql\lib\protocol\Protocol.js:51:23)
+    at PoolConnection.connect (C:\Node for Matrix\2022-11-30\Secure Coding\Backend\node_modules\mysql\lib\Connection.js:116:18)
+    at Pool.getConnection (C:\Node for Matrix\2022-11-30\Secure Coding\Backend\node_modules\mysql\lib\Pool.js:48:16)
+    at Pool.query (C:\Node for Matrix\2022-11-30\Secure Coding\Backend\node_modules\mysql\lib\Pool.js:202:8)
+    at C:\Node for Matrix\2022-11-30\Secure Coding\Backend\src\2-utils\dal.ts:13:20
+    at new Promise (<anonymous>)
+    at Object.execute (C:\Node for Matrix\2022-11-30\Secure Coding\Backend\src\2-utils\dal.ts:12:12)
+    at Object.<anonymous> (C:\Node for Matrix\2022-11-30\Secure Coding\Backend\src\5-services\forum-service.ts:10:32)
+    at step (C:\Node for Matrix\2022-11-30\Secure Coding\Backend\src\5-services\forum-service.ts:33:23)
+----------------------------------------------------------------------------------------------------
+Wed, 30 Nov 2022 18:34:38 GMT
+catchAll Error
+Stack: Error: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'password = 'dd6ff49baeb6802c954201a4216f690810451a9991247ebe7fd62556bc6821807...' at line 3
+    at Query.Sequence._packetToError (C:\Node for Matrix\2022-11-30\Secure Coding\Backend\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (C:\Node for Matrix\2022-11-30\Secure Coding\Backend\node_modules\mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (C:\Node for Matrix\2022-11-30\Secure Coding\Backend\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (C:\Node for Matrix\2022-11-30\Secure Coding\Backend\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (C:\Node for Matrix\2022-11-30\Secure Coding\Backend\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (C:\Node for Matrix\2022-11-30\Secure Coding\Backend\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (C:\Node for Matrix\2022-11-30\Secure Coding\Backend\node_modules\mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (C:\Node for Matrix\2022-11-30\Secure Coding\Backend\node_modules\mysql\lib\Connection.js:526:10)
+    at Socket.emit (node:events:537:28)
+    at Socket.emit (node:domain:482:12)
+    --------------------
+    at Pool.query (C:\Node for Matrix\2022-11-30\Secure Coding\Backend\node_modules\mysql\lib\Pool.js:199:23)
+    at C:\Node for Matrix\2022-11-30\Secure Coding\Backend\src\2-utils\dal.ts:13:20
+    at new Promise (<anonymous>)
+    at Object.execute (C:\Node for Matrix\2022-11-30\Secure Coding\Backend\src\2-utils\dal.ts:12:12)
+    at Object.<anonymous> (C:\Node for Matrix\2022-11-30\Secure Coding\Backend\src\5-services\auth-service.ts:43:29)
+    at step (C:\Node for Matrix\2022-11-30\Secure Coding\Backend\src\5-services\auth-service.ts:33:23)
+    at Object.next (C:\Node for Matrix\2022-11-30\Secure Coding\Backend\src\5-services\auth-service.ts:14:53)
+    at C:\Node for Matrix\2022-11-30\Secure Coding\Backend\src\5-services\auth-service.ts:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (C:\Node for Matrix\2022-11-30\Secure Coding\Backend\src\5-services\auth-service.ts:4:12)
+----------------------------------------------------------------------------------------------------
+Wed, 30 Nov 2022 18:34:44 GMT
+catchAll Error
+Stack: Error: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'password = 'dd6ff49baeb6802c954201a4216f690810451a9991247ebe7fd62556bc6821807...' at line 3
+    at Query.Sequence._packetToError (C:\Node for Matrix\2022-11-30\Secure Coding\Backend\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (C:\Node for Matrix\2022-11-30\Secure Coding\Backend\node_modules\mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (C:\Node for Matrix\2022-11-30\Secure Coding\Backend\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (C:\Node for Matrix\2022-11-30\Secure Coding\Backend\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (C:\Node for Matrix\2022-11-30\Secure Coding\Backend\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (C:\Node for Matrix\2022-11-30\Secure Coding\Backend\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (C:\Node for Matrix\2022-11-30\Secure Coding\Backend\node_modules\mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (C:\Node for Matrix\2022-11-30\Secure Coding\Backend\node_modules\mysql\lib\Connection.js:526:10)
+    at Socket.emit (node:events:537:28)
+    at Socket.emit (node:domain:482:12)
+    --------------------
+    at Pool.query (C:\Node for Matrix\2022-11-30\Secure Coding\Backend\node_modules\mysql\lib\Pool.js:199:23)
+    at C:\Node for Matrix\2022-11-30\Secure Coding\Backend\src\2-utils\dal.ts:13:20
+    at new Promise (<anonymous>)
+    at Object.execute (C:\Node for Matrix\2022-11-30\Secure Coding\Backend\src\2-utils\dal.ts:12:12)
+    at Object.<anonymous> (C:\Node for Matrix\2022-11-30\Secure Coding\Backend\src\5-services\auth-service.ts:43:29)
+    at step (C:\Node for Matrix\2022-11-30\Secure Coding\Backend\src\5-services\auth-service.ts:33:23)
+    at Object.next (C:\Node for Matrix\2022-11-30\Secure Coding\Backend\src\5-services\auth-service.ts:14:53)
+    at C:\Node for Matrix\2022-11-30\Secure Coding\Backend\src\5-services\auth-service.ts:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (C:\Node for Matrix\2022-11-30\Secure Coding\Backend\src\5-services\auth-service.ts:4:12)
+----------------------------------------------------------------------------------------------------
+Wed, 30 Nov 2022 18:35:13 GMT
+catchAll Error
+Stack: Error: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'password = '475594658ee267ed38042cd53243a6e8870a2e3f1f68b78b537cad8cddfd6d7ba...' at line 3
+    at Query.Sequence._packetToError (C:\Node for Matrix\2022-11-30\Secure Coding\Backend\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (C:\Node for Matrix\2022-11-30\Secure Coding\Backend\node_modules\mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (C:\Node for Matrix\2022-11-30\Secure Coding\Backend\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (C:\Node for Matrix\2022-11-30\Secure Coding\Backend\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (C:\Node for Matrix\2022-11-30\Secure Coding\Backend\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (C:\Node for Matrix\2022-11-30\Secure Coding\Backend\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (C:\Node for Matrix\2022-11-30\Secure Coding\Backend\node_modules\mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (C:\Node for Matrix\2022-11-30\Secure Coding\Backend\node_modules\mysql\lib\Connection.js:526:10)
+    at Socket.emit (node:events:537:28)
+    at Socket.emit (node:domain:482:12)
+    --------------------
+    at Pool.query (C:\Node for Matrix\2022-11-30\Secure Coding\Backend\node_modules\mysql\lib\Pool.js:199:23)
+    at C:\Node for Matrix\2022-11-30\Secure Coding\Backend\src\2-utils\dal.ts:13:20
+    at new Promise (<anonymous>)
+    at Object.execute (C:\Node for Matrix\2022-11-30\Secure Coding\Backend\src\2-utils\dal.ts:12:12)
+    at Object.<anonymous> (C:\Node for Matrix\2022-11-30\Secure Coding\Backend\src\5-services\auth-service.ts:43:29)
+    at step (C:\Node for Matrix\2022-11-30\Secure Coding\Backend\src\5-services\auth-service.ts:33:23)
+    at Object.next (C:\Node for Matrix\2022-11-30\Secure Coding\Backend\src\5-services\auth-service.ts:14:53)
+    at C:\Node for Matrix\2022-11-30\Secure Coding\Backend\src\5-services\auth-service.ts:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (C:\Node for Matrix\2022-11-30\Secure Coding\Backend\src\5-services\auth-service.ts:4:12)
+----------------------------------------------------------------------------------------------------
+Wed, 30 Nov 2022 18:35:36 GMT
+catchAll Error
+Stack: Error: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'password = '475594658ee267ed38042cd53243a6e8870a2e3f1f68b78b537cad8cddfd6d7ba...' at line 3
+    at Query.Sequence._packetToError (C:\Node for Matrix\2022-11-30\Secure Coding\Backend\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (C:\Node for Matrix\2022-11-30\Secure Coding\Backend\node_modules\mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (C:\Node for Matrix\2022-11-30\Secure Coding\Backend\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (C:\Node for Matrix\2022-11-30\Secure Coding\Backend\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (C:\Node for Matrix\2022-11-30\Secure Coding\Backend\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (C:\Node for Matrix\2022-11-30\Secure Coding\Backend\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (C:\Node for Matrix\2022-11-30\Secure Coding\Backend\node_modules\mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (C:\Node for Matrix\2022-11-30\Secure Coding\Backend\node_modules\mysql\lib\Connection.js:526:10)
+    at Socket.emit (node:events:537:28)
+    at Socket.emit (node:domain:482:12)
+    --------------------
+    at Pool.query (C:\Node for Matrix\2022-11-30\Secure Coding\Backend\node_modules\mysql\lib\Pool.js:199:23)
+    at C:\Node for Matrix\2022-11-30\Secure Coding\Backend\src\2-utils\dal.ts:13:20
+    at new Promise (<anonymous>)
+    at Object.execute (C:\Node for Matrix\2022-11-30\Secure Coding\Backend\src\2-utils\dal.ts:12:12)
+    at Object.<anonymous> (C:\Node for Matrix\2022-11-30\Secure Coding\Backend\src\5-services\auth-service.ts:45:29)
+    at step (C:\Node for Matrix\2022-11-30\Secure Coding\Backend\src\5-services\auth-service.ts:33:23)
+    at Object.next (C:\Node for Matrix\2022-11-30\Secure Coding\Backend\src\5-services\auth-service.ts:14:53)
+    at C:\Node for Matrix\2022-11-30\Secure Coding\Backend\src\5-services\auth-service.ts:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (C:\Node for Matrix\2022-11-30\Secure Coding\Backend\src\5-services\auth-service.ts:4:12)
+----------------------------------------------------------------------------------------------------

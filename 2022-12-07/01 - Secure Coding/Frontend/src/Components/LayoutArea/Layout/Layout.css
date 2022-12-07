@@ -1,0 +1,15 @@
+.Layout {
+	height: 100%;
+    box-sizing: border-box;
+    display: grid;
+    grid-template-columns: repeat(1fr);
+    grid-template-rows: 10% 90%;
+}
+
+.Layout, .Layout > * {
+    border: 1px solid black;
+}
+
+.Layout > main {
+    overflow: auto;
+}
